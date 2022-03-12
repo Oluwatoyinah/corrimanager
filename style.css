@@ -19,6 +19,9 @@ header {
   color: #b3b3bb !important;
   position: relative;
 }
+header nav .nav-item {
+  margin: 10px;
+}
 header .svg {
   position: absolute;
   bottom: 0;
@@ -34,17 +37,17 @@ header h1 {
 header .second {
   z-index: 3;
 }
-header .second .box {
-  box-shadow: 3px 3px 5px 6px #ccc;
-}
 header .second .box img {
   width: 100%;
-  padding-bottom: 30px;
 }
 
 .boxx {
+  height: 150px;
   background: #cecdd6;
-  padding: 50px 10px 10px;
+  padding: 30px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 10px;
   border-radius: 15px;
 }
@@ -169,6 +172,10 @@ footer .row {
     font-size: 30px;
   }
 
+  header img {
+    width: 80%;
+  }
+
   .testimonial {
     margin: 50px 0;
   }
@@ -187,8 +194,14 @@ nav.nav-fixed {
   transition: 0.3s ease-in-out;
   z-index: 5;
 }
+nav.nav-fixed .nav-link {
+  color: #d6d8d6;
+}
 
 .nav-active {
   background-color: #fff;
   box-shadow: 5px -1px 12px -5px grey;
+}
+.nav-active .nav-link {
+  color: #181829;
 }/*# sourceMappingURL=style.css.map */

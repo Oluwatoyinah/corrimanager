@@ -20,7 +20,14 @@ header {
     color:#b3b3bb !important;
     position: relative;
     // clip-path: ellipse(100% 100% at 50% 0%);
-    
+     nav {
+       .nav-item {
+         margin: 10px;
+         .nav-link {
+          //  color: rgb(255, 255, 255);
+         }
+       }
+     }
     .svg {
       position: absolute; bottom: 0; width: 120%; left: -10%; z-index: 1; opacity: 0.3;
     }
@@ -32,12 +39,9 @@ header {
       .second{
         z-index: 3;
           .box {
-            -moz-box-shadow:    3px 3px 5px 6px #ccc;
-            -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-            box-shadow:         3px 3px 5px 6px #ccc;
              img {
                width: 100%;
-               padding-bottom: 30px;
+              //  padding-bottom: 30px;
              }
           }
         }
@@ -45,8 +49,12 @@ header {
 
 
 .boxx {
+  height: 150px;
   background: #cecdd6;
-  padding: 50px 10px 10px;
+  padding: 30px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 10px;
   border-radius: 15px;
 }
@@ -161,6 +169,11 @@ footer {
       font-size: 30px;
     }
 
+    header {
+      img {
+        width: 80%;
+      }
+    }
     .testimonial {
       margin: 50px 0;
       .icon-box {
@@ -183,9 +196,15 @@ footer {
     position: fixed;
     transition: 0.3s ease-in-out;
     z-index: 5;
+    .nav-link {
+      color: rgb(214, 216, 214);
+    }
 }
 
 .nav-active {
     background-color:#fff;
     box-shadow: 5px -1px 12px -5px grey;
+    .nav-link {
+      color: #181829;
+    }
 }
