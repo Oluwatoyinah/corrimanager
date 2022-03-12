@@ -74,13 +74,13 @@ header {
    }
 }
 .demo {
-  background-color: #222235;
+  color: #222235;
   min-height: 50vh;
 
   input[type="text"], input[type="email"], textarea{
-    border-radius: none;
+    border-radius: 0;
     background: transparent;
-    border: 1px solid white;
+    border: 2px solid #222235;
   }
   button {
     border: none;
@@ -168,8 +168,8 @@ footer {
 
 
   @media(max-width:598px) {
-    .tx-50{
-      font-size: 30px;
+    .tx-40{
+      font-size: 28px;
     }
 
     header {
