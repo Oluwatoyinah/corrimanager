@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700;800;900&display=swap");
 @import url("https://fonts.cdnfonts.com/css/noe-display");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap");
 body {
   box-sizing: border-box;
   margin: 0;
@@ -28,7 +29,7 @@ header .svg {
 }
 header h1 {
   color: white;
-  font-family: "Noe Display", sans-serif;
+  font-family: "Suez One", serif;
 }
 header .second {
   z-index: 3;
@@ -51,9 +52,13 @@ header .second .box img {
 .testimonial {
   margin: 50px 0;
 }
-.testimonial .icons {
+.testimonial .icon-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.testimonial .icon-box .icons {
   font-size: 30px;
-  color: #00003d;
+  color: #242464;
 }
 
 .demo {
@@ -81,7 +86,7 @@ footer .row {
 }
 
 .bg-ashblack {
-  background-color: #222222;
+  background-color: #4d4949;
 }
 
 .tx-title {
@@ -98,7 +103,7 @@ footer .row {
 }
 
 .top-pad {
-  padding-top: 8rem;
+  padding-top: 9rem;
 }
 
 .tx-55 {
@@ -163,4 +168,27 @@ footer .row {
   .tx-50 {
     font-size: 30px;
   }
+
+  .testimonial {
+    margin: 50px 0;
+  }
+  .testimonial .icon-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .testimonial .icon-box .icons {
+    font-size: 30px;
+    color: #242464;
+  }
+}
+nav.nav-fixed {
+  width: 100%;
+  position: fixed;
+  transition: 0.3s ease-in-out;
+  z-index: 5;
+}
+
+.nav-active {
+  background-color: #fff;
+  box-shadow: 5px -1px 12px -5px grey;
 }/*# sourceMappingURL=style.css.map */

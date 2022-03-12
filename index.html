@@ -18,13 +18,41 @@
     <title>HomePage || CorriManager</title>
 </head>
 <body>
-    <header class="container-fluid">
+    <header class="container-fluid" style="padding: 0;">
+
+        <nav class="navbar navbar-expand-lg menu px-md-5  nav-fixed" style="margin: 0;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./img/3CorrIM.png" width="200" alt=""></a>
+              <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonials</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
         <div class="container top-pad">
             <div class="row g-5">
-                <div class="col-lg-7 pb-5"  style="z-index: 3;">
-                    <h1 class="tx-50 col-md-11"><span class="tx-fraunces tx-50">CorriManager</span> is a novel and ingeniously designed tool that demystifies corrosion and asset integrity problems in a facility.</h1>
+                <div class="col-lg-7 py-3"  style="z-index: 3;">
+                    <h1 class="tx-50 col-md-11"><span class="" style="color: rgb(179, 179, 187);">CorrlManager</span> is a novel and ingeniously designed tool that demystifies corrosion and asset integrity problems in a facility.</h1>
                     <p class="tx-18 pt-4">With <span class="tx-fraunces text-white">easy to use and methodical steps,</span>  your equipment or asset is devolved into basic elements (threat, barrier, etc) thus allowing for optimized and practical solutions to obvious and hidden problems. CorrIManager is managed by either employer teams or our inhouse experts and consultants, proferring practical solutions 24/7.
-                     CorriManager is ML driven and continuously improved using data from numerous facilities.</p>
+                     CorrlManager is ML driven and continuously improved using data from numerous facilities.</p>
+
+                     <div>
+                         <button>Request Demo</button>
+                     </div>
                 </div>
                 <div class="col-lg-5 mx-auto second py-md-5">
                     <div class="box">
@@ -44,7 +72,7 @@
                 <div class="col-md-3 my-auto">
                     <h2 class="tx-50 tx-title">Features</h2>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 pt-3 pt-md-0">
                     <div class="row g-3">
                         <div class="col-md-4">
                             <div class="boxx">
@@ -129,7 +157,7 @@
                   </div>
                 </div>
 
-                <div class="d-flex justify-content-around">
+                <div class="icon-box">
                     <div class="swiper-button-prv">
                         <i class="fa fa-arrow-circle-o-left icons" aria-hidden="true"></i>
                     </div>
@@ -257,19 +285,34 @@
 
          <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
     <!-- Initialize Swiper -->
     <script>
-      var swiper = new Swiper(".mySwiper", {
-        navigation: {
-          nextEl: ".swiper-button-nxt",
-          prevEl: ".swiper-button-prv",
-        },
-        autoplay: {
-          delay: 3500,
-          disableOnInteraction: false,
-        },
-      });
-    </script>
+        var swiper = new Swiper(".mySwiper", {
+          navigation: {
+            nextEl: ".swiper-button-nxt",
+            prevEl: ".swiper-button-prv",
+          },
+          autoplay: {
+            delay: 3500,
+            disableOnInteraction: false,
+          },
+        });
+      </script>
+
+
+      <script>
+             const navbar = document.querySelector('.nav-fixed');
+window.onscroll = () => {
+    if (window.scrollY > 30) {
+        navbar.classList.add('nav-active');
+    } else {
+        navbar.classList.remove('nav-active');
+    }
+};
+      </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    
+    
 </body>
 </html>

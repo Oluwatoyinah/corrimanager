@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800;900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/noe-display');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
 
 
 body {
@@ -25,7 +26,8 @@ header {
     }
      h1 {
       color:white;
-      font-family: 'Noe Display', sans-serif;
+      // font-family: 'Noe Display', sans-serif;
+      font-family: 'Suez One', serif;
      }
       .second{
         z-index: 3;
@@ -51,10 +53,14 @@ header {
 
 .testimonial {
    margin: 50px 0;
+   .icon-box {
+     display: flex;
+     justify-content: space-evenly;
     .icons {
       font-size: 30px;
-      color: #00003d;
+      color: #242464;
     }
+   }
 }
 .demo {
   background-color: #222235;
@@ -83,7 +89,7 @@ footer {
 }
 
 .bg-ashblack {
-  background-color:  #222222;
+  background-color:  #4d4949;
 }
 .tx-title {
   font-family: 'DM Serif Display', serif;
@@ -101,7 +107,7 @@ footer {
   min-height: 20px;
 }
 .top-pad {
-    padding-top: 8rem;
+    padding-top: 9rem;
 }
 .tx-55{
     font-size: 3.4rem;
@@ -154,4 +160,32 @@ footer {
     .tx-50{
       font-size: 30px;
     }
+
+    .testimonial {
+      margin: 50px 0;
+      .icon-box {
+        display: flex;
+        justify-content: space-between;
+       .icons {
+         font-size: 30px;
+         color: #242464;
+       }
+      }
+   }
   }
+
+
+
+  // nav
+
+  nav.nav-fixed {
+    width: 100%;
+    position: fixed;
+    transition: 0.3s ease-in-out;
+    z-index: 5;
+}
+
+.nav-active {
+    background-color:#fff;
+    box-shadow: 5px -1px 12px -5px grey;
+}
