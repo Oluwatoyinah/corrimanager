@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800;900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/noe-display');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container-fluid {
+  overflow: hidden;
+}
+header {
+    // padding-bottom: 100px;
+    margin-bottom: 30px;
+    min-height: 100vh; 
+    background-color: #181829;
+    color:#b3b3bb !important;
+    position: relative;
+    // clip-path: ellipse(100% 100% at 50% 0%);
+    
+    .svg {
+      position: absolute; bottom: 0; width: 120%; left: -10%; z-index: 1; opacity: 0.3;
+    }
+     h1 {
+      color:white;
+      font-family: 'Noe Display', sans-serif;
+     }
+      .second{
+        z-index: 3;
+          .box {
+            -moz-box-shadow:    3px 3px 5px 6px #ccc;
+            -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+            box-shadow:         3px 3px 5px 6px #ccc;
+             img {
+               width: 100%;
+               padding-bottom: 30px;
+             }
+          }
+        }
+}
+
+
+.boxx {
+  background: #cecdd6;
+  padding: 50px 10px 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.testimonial {
+   margin: 50px 0;
+    .icons {
+      font-size: 30px;
+      color: #00003d;
+    }
+}
+.demo {
+  background-color: #222235;
+  min-height: 50vh;
+
+  input[type="text"], input[type="email"], textarea{
+    border-radius: none;
+    background: transparent;
+    border: 1px solid white;
+  }
+  button {
+    border: none;
+    background-color: white;
+    color: #181829;
+    padding: 10px 20px;
+  }
+}
+
+footer {
+  .row {
+    min-height: 30vh;
+  }
+}
+.link {
+  text-decoration: none;
+}
+
+.bg-ashblack {
+  background-color:  #222222;
+}
+.tx-title {
+  font-family: 'DM Serif Display', serif;
+}
+.tx-fraunces {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    // font-size: larger;
+    // font-weight: 500;
+    // font-size: 4rem;
+}
+
+
+.boxx {
+  min-height: 20px;
+}
+.top-pad {
+    padding-top: 8rem;
+}
+.tx-55{
+    font-size: 3.4rem;
+    line-height: 1.1;
+  
+  }
+  .tx-50{
+    font-size: 3.1rem;
+    line-height: 1.0;
+  }
+  .tx-40{
+    font-size: 2.5rem;
+  }
+  .tx-14{
+    font-size: 0.875rem;
+  }
+  .tx-18{
+    font-size: 1.125rem;
+  }
+  .tx-20{
+    font-size: 1.25rem;
+  }
+  .tx-22{
+    font-size: 1.375rem;
+  }
+  .tx-30{
+    font-size: 1.875rem;
+  }
+  .tx-28{
+    font-size: 1.75rem;
+  }
+  .tx-24{
+    font-size: 1.5rem;
+  }
+  .tx-16{
+    font-size: 1rem;
+  }
+  .tx-14{
+    font-size: 0.875rem;
+  }
+  .tx-12{
+    font-size: 0.75rem;
+  }
+  .tx-9{
+    font-size: 0.52rem;
+  }
+
+
+  @media(max-width:598px) {
+    .tx-50{
+      font-size: 30px;
+    }
+  }
