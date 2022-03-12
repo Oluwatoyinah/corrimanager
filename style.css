@@ -82,8 +82,12 @@ header .second .box img {
   padding: 10px 20px;
 }
 
-footer .row {
-  min-height: 30vh;
+footer {
+  background-color: #181829;
+}
+footer .icons {
+  margin-right: 8px;
+  font-size: 16px;
 }
 
 .link {
