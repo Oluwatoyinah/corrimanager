@@ -59,7 +59,7 @@ header .second .box img {
 }
 .testimonial .icon-box {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .testimonial .icon-box .icons {
   font-size: 30px;
