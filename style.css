@@ -24,6 +24,18 @@ header {
 header nav .nav-item {
   margin: 10px;
 }
+header button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #dd1818;
+  color: white;
+}
+header .play {
+  font-size: 30px;
+  color: white;
+  margin-left: 15px;
+  margin-top: 5px;
+}
 header .svg {
   position: absolute;
   bottom: 0;
@@ -77,8 +89,8 @@ header .second .box img {
 }
 .demo button {
   border: none;
-  background-color: white;
-  color: #181829;
+  color: white;
+  background-color: #181829;
   padding: 10px 20px;
 }
 
