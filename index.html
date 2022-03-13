@@ -10,6 +10,9 @@
     href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
 
+    <!-- Animate on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./style.css">
 
     <!-- Bootstrap CSS -->
@@ -46,7 +49,7 @@
         <div class="container top-pad">
             <div class="row g-5">
                 <div class="col-lg-7 py-5"  style="z-index: 3;">
-                    <h1 class="tx-40 col-md-11"><span class="" style="color: rgb(179, 179, 187);">CorrlManager</span> is a novel and ingeniously designed tool that demystifies corrosion and asset integrity problems in a facility.</h1>
+                    <h1 class="tx-40 col-md-11" data-aos="zoom-out"><span class="" style="color: rgb(179, 179, 187);">CorrlManager</span> is a novel and ingeniously designed tool that demystifies corrosion and asset integrity problems in a facility.</h1>
                     <p class="tx-16 pt-4">With <span class="tx-fraunces text-white">easy to use and methodical steps,</span>  your equipment or asset is devolved into basic elements (threat, barrier, etc) thus allowing for optimized and practical solutions to obvious and hidden problems. CorrIManager is managed by either employer teams or our inhouse experts and consultants, proferring practical solutions 24/7.
                      CorrlManager is ML driven and continuously improved using data from numerous facilities.</p>
 
@@ -56,7 +59,7 @@
                      </div>
                 </div>
                 <div class="col-lg-5 mx-auto py-5 second my-auto">
-                    <div class="box">
+                    <div class="box" data-aos="fade-down-left">
                         <img src="./img/oxygen.png" alt="">
                     </div>
                 </div>
@@ -76,34 +79,34 @@
                 <div class="col-md-9 pt-3 pt-md-0">
                     <div class="row g-3">
                         <div class="col-md-4">
-                            <div class="boxx">
+                            <div class="boxx"  data-aos="fade-down-right">
                                 <p>Automated Integrity Reports (Quarterly and Annually)</p>
                             </div>
-                            <div class="boxx">
+                            <div class="boxx"  data-aos="fade-right">
                                 <p>Customized Corrosion Specialist support (over 120yrs team experience)</p>
                             </div>
-                            <div class="boxx">
+                            <div class="boxx"  data-aos="fade-up-right">
                                 <p>Free facility survey / tool Trials and Training</p>
                             </div>   
                         </div>
 
-                        <div class="col-md-4">
-                            <div class="boxx">
+                        <div class="col-md-4" >
+                            <div class="boxx"  data-aos="fade-down">
                                 <p>Equipment Specific Assessments and recommendations/p>
                             </div>
-                            <div class="boxx">
+                            <div class="boxx"  data-aos="zoom-out">
                                 <p>Free facilitu setup</p>
                             </div>
-                            <div class="boxx">
+                            <div class="boxx" data-aos="fade-up">
                                 <p>Digitized action tracker and real-time updates</p>
                             </div>
                         </div>
 
-                        <div class="col-md-4 my-auto">
+                        <div class="col-md-4 my-auto" data-aos="fade-down-left">
                             <div class="boxx">
                                 <p>Superior Data based Security</p>
                             </div>
-                            <div class="boxx">
+                            <div class="boxx"  data-aos="fade-up-left">
                                 <p>Zero entry cost</p>
                             </div>
                         </div>
@@ -122,10 +125,10 @@
     <section class="container-fluid testimonial">
         <div class="container text-center">
             <h2 class="tx-title tx-40">Testimonials</h2>
-            <div class="swiper mySwiper py-2">
+            <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <p>“Such an elegantly designed tool has allowed me take control of the corrosion threats in my plant, save cost on maintenance and repairs and routinely reminds me of pending tasks and actions . It is an invaluable tool.”</p>
+                    <p class=" col-md-8 mx-auto">“Such an elegantly designed tool has allowed me take control of the corrosion threats in my plant, save cost on maintenance and repairs and routinely reminds me of pending tasks and actions . It is an invaluable tool.”</p>
                     <div>
                         <img src="./img/avatar2.png" alt="" width="70">
                         <p class="fw-bold tx-14 mt-2 mb-0">Femi</p>
@@ -133,7 +136,7 @@
                     </div>
                   </div>
                   <div class="swiper-slide">
-                    <p>“The CorrIManager tool is incredible. I will no longer have to use a worksheet and my data is preserved long-term”</p>
+                    <p class="col-md-8 mx-auto">“The CorrIManager tool is incredible. I will no longer have to use a worksheet and my data is preserved long-term”</p>
                     <div>
                         <img src="./img/avatar3.png" alt="" width="70">
                         <p class="fw-bold tx-14 mt-2 mb-0">Dayo of MAO</p>
@@ -160,10 +163,10 @@
 
                 <div class="icon-box">
                     <div class="swiper-button-prv">
-                        <i class="fa fa-arrow-circle-o-left icons" aria-hidden="true"></i>
+                        <i class="fa fa-long-arrow-left icons" aria-hidden="true"></i>
                     </div>
                     <div class="swiper-button-nxt ">
-                        <i class="fa fa-arrow-circle-o-right icons" aria-hidden="true"></i>
+                        <i class="fa fa-long-arrow-right icons" aria-hidden="true"></i>
                     </div>
                     
                 </div>
@@ -320,6 +323,12 @@ window.onscroll = () => {
         navbar.classList.remove('nav-active');
     }
 };
+      </script>
+
+      <!-- Animate on scroll -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
       </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 

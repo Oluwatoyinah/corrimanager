@@ -9,6 +9,7 @@
 body {
   box-sizing: border-box;
   margin: 0;
+  
  
 }
 .container-fluid {
@@ -70,16 +71,28 @@ header {
   align-items: center;
   margin-bottom: 10px;
   border-radius: 15px;
+  color: rgb(17, 11, 75);
+  border-bottom: 3px solid #242464;
+  border-left: 3px solid #242464;
+  transform: scale(1);
+  transition: all 300ms ease-in;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .testimonial {
    margin: 50px 0;
+   color: rgb(17, 11, 75);
    .icon-box {
      display: flex;
      justify-content: space-around;
     .icons {
-      font-size: 30px;
-      color: #242464;
+      font-size: 20px;
+      color: white;
+      padding: 5px;
+      border-radius: 50%;
+      background-color: #242464;
     }
    }
 }
