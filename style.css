@@ -131,6 +131,10 @@ footer .icons {
   font-style: italic;
 }
 
+.tx-blue {
+  color: #242464;
+}
+
 .boxx {
   min-height: 20px;
 }
