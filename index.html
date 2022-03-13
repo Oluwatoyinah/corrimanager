@@ -22,12 +22,11 @@
 </head>
 <body>
     <header class="container-fluid" style="padding: 0;">
-<!-- 
-        <nav class="navbar navbar-expand-lg menu px-md-5  nav-fixed" style="margin: 0;">
+        <nav class="navbar navbar-expand-lg px-md-5 fixed-top bgcolor">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="./img/3CorrIM.png" width="200" alt=""></a>
+              <a class="navbar-brand" href="#"><img src="./img/3CorrIM.png" alt=""></a>
               <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"  ></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -35,17 +34,26 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">About Us</a>
                   </li>
-                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Testimonials</a>
                   </li>
                 </ul>
+
+                <ul>
+                    <!-- <li class="nav-item"> -->
+                        <button class="nav-link" href="#">login</button>
+                    <!-- </li> -->
+                </ul>
                 
               </div>
             </div>
-          </nav> -->
+          </nav>
+
         <div class="container top-pad">
             <div class="row g-5">
                 <div class="col-lg-7 py-5"  style="z-index: 3;">
@@ -330,9 +338,21 @@ window.onscroll = () => {
       <script>
         AOS.init();
       </script>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    
+    <script>
+        $(window).scroll(function(){
+            $('nav').toggleClass('scrolled',$(this).scrollTop() > 30);
+        });
+
+        var a = document.querySelector('.navbar-toggler');
+        a.addEventListener('click', goback = () => {
+            $('nav').addClass('scrolled');
+        });
+        
+    </script>
     
 </body>
 </html>

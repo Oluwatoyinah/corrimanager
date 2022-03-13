@@ -214,21 +214,28 @@ footer {
 
 
   // nav
-
-  nav.nav-fixed {
-    width: 100%;
-    position: fixed;
-    transition: 0.3s ease-in-out;
-    z-index: 5;
-    .nav-link {
-      color: rgb(214, 216, 214);
-    }
+nav .nav-link {
+  color: white;
+  transition: all 500ms ease-in;
+  &:hover {
+    border-bottom: 2px solid red;
+    color: white;
+    font-weight: bold;
+  }
 }
 
-.nav-active {
-    background-color:#fff;
-    box-shadow: 5px -1px 12px -5px grey;
-    .nav-link {
-      color: #181829;
-    }
+.navbar-brand img {
+  width: 200px;
+}
+
+.bgcolor.scrolled {
+  background-color: white;
+  transition:ease-in-out 0.5s ;
+  box-shadow: 0 0 5px rgb(75, 73, 73);
+  .nav-link {
+    color: #181829;
+  }
+  button.nav-link {
+    color: white;
+  }
 }

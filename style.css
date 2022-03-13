@@ -214,20 +214,28 @@ footer .icons {
     justify-content: space-between;
   }
 }
-nav.nav-fixed {
-  width: 100%;
-  position: fixed;
-  transition: 0.3s ease-in-out;
-  z-index: 5;
+nav .nav-link {
+  color: white;
+  transition: all 500ms ease-in;
 }
-nav.nav-fixed .nav-link {
-  color: #d6d8d6;
+nav .nav-link:hover {
+  border-bottom: 2px solid red;
+  color: white;
+  font-weight: bold;
 }
 
-.nav-active {
-  background-color: #fff;
-  box-shadow: 5px -1px 12px -5px grey;
+.navbar-brand img {
+  width: 200px;
 }
-.nav-active .nav-link {
+
+.bgcolor.scrolled {
+  background-color: white;
+  transition: ease-in-out 0.5s;
+  box-shadow: 0 0 5px #4b4949;
+}
+.bgcolor.scrolled .nav-link {
   color: #181829;
+}
+.bgcolor.scrolled button.nav-link {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
