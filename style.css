@@ -213,10 +213,6 @@ footer .icons {
     display: flex;
     justify-content: space-between;
   }
-  .testimonial .icon-box .icons {
-    font-size: 30px;
-    color: #242464;
-  }
 }
 nav.nav-fixed {
   width: 100%;
