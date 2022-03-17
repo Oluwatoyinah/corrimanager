@@ -57,7 +57,7 @@ header .second .box img {
 
 .boxx {
   height: 150px;
-  background: #cecdd6;
+  background: #ffffff;
   padding: 30px 10px 10px;
   display: flex;
   justify-content: center;
@@ -65,13 +65,7 @@ header .second .box img {
   margin-bottom: 10px;
   border-radius: 15px;
   color: #110b4b;
-  border-bottom: 3px solid #242464;
-  border-left: 3px solid #242464;
-  transform: scale(1);
-  transition: all 300ms ease-in;
-}
-.boxx:hover {
-  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
 }
 
 .testimonial {
@@ -220,7 +214,7 @@ footer .icons {
 }
 nav .nav-link {
   color: white;
-  transition: all 500ms ease-in;
+  transition: border-bottom 3s ease-in;
 }
 nav .nav-link:hover {
   border-bottom: 2px solid red;
