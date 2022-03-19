@@ -68,6 +68,30 @@ header .second .box img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
 }
 
+.team {
+  margin: 50px auto;
+  color: #242464;
+}
+.team .team-content {
+  padding: 20px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+}
+.team h4 {
+  font-weight: bold;
+}
+.team p {
+  font-style: italic;
+}
+.team button {
+  padding: 10px 15px;
+  border: 2px solid #dd1818;
+  color: #dd1818;
+  background-color: white;
+}
+.team .team-img {
+  margin-bottom: 10px;
+}
+
 .testimonial {
   margin: 50px 0;
   color: #110b4b;

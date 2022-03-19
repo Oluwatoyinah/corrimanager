@@ -78,6 +78,31 @@ header {
 
 }
 
+.team {
+  margin: 50px auto;
+  .team-content {
+    // border: 1px solid black;
+    padding: 20px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  }
+  color: #242464;
+  h4 {
+    font-weight: bold;
+  }
+  p {
+    font-style: italic;
+  }
+  button {
+    padding: 10px 15px;
+    border: 2px solid rgb(221, 24, 24);
+    color: rgb(221, 24, 24);
+    background-color: white;
+  }
+  .team-img {
+    margin-bottom: 10px;
+  }
+}
+
 .testimonial {
    margin: 50px 0;
    color: rgb(17, 11, 75);
