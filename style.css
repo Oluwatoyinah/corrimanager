@@ -27,7 +27,7 @@ header nav .nav-item {
 header button {
   padding: 10px 15px;
   border: none;
-  background-color: #dd1818;
+  background-color: rgb(221, 24, 24);
   color: white;
 }
 header .play {
@@ -64,7 +64,7 @@ header .second .box img {
   align-items: center;
   margin-bottom: 10px;
   border-radius: 15px;
-  color: #110b4b;
+  color: rgb(17, 11, 75);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
 }
 
@@ -84,8 +84,8 @@ header .second .box img {
 }
 .team button {
   padding: 10px 15px;
-  border: 2px solid #dd1818;
-  color: #dd1818;
+  border: 2px solid rgb(221, 24, 24);
+  color: rgb(221, 24, 24);
   background-color: white;
 }
 .team .team-img {
@@ -94,7 +94,7 @@ header .second .box img {
 
 .testimonial {
   margin: 50px 0;
-  color: #110b4b;
+  color: rgb(17, 11, 75);
 }
 .testimonial .icon-box {
   display: flex;
@@ -253,11 +253,16 @@ nav .nav-link:hover {
 .bgcolor.scrolled {
   background-color: white;
   transition: ease-in-out 0.5s;
-  box-shadow: 0 0 5px #4b4949;
+  box-shadow: 0 0 5px rgb(75, 73, 73);
 }
 .bgcolor.scrolled .nav-link {
   color: #181829;
 }
 .bgcolor.scrolled button.nav-link {
   color: white;
+}
+
+.social-icons a i {
+  color: white;
+  font-size: 17px;
 }/*# sourceMappingURL=style.css.map */
