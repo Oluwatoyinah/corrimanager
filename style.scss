@@ -272,3 +272,33 @@ nav .nav-link {
       }
     }
 }
+
+.boxxx {
+  position: relative;
+  min-height: 150px;
+  text-align: center;
+  background: #ffffff;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  color: rgb(17, 11, 75);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  .circle {
+    position: absolute;
+    top: -30px;
+    left: 76%;
+    width: 24%;
+    height: 60px;
+    background-color: rgb(170, 156, 156);
+    border-radius: 50%;
+    display: grid;
+    place-content: center; 
+    i {
+      font-size: 35px;
+    }
+  }
+
+}
